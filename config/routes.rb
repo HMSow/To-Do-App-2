@@ -1,12 +1,16 @@
 Rails.application.routes.draw do
-  get 'list/index'
+  get 'about/Lyst'
+
+  get 'about/It'
+
+  get 'about/lyst_it'
 
   root'application#hello'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  # root 'welcome#lyst_it'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
