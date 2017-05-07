@@ -1,10 +1,6 @@
 Rails.application.routes.draw do
-  get 'about/Lyst'
-
-  get 'about/It'
-
-  get 'about/lyst_it'
-
+  get 'list/1' => 'list#first'
+  get 'list/2' => 'list#second'
   root'application#hello'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
